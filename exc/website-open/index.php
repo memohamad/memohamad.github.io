@@ -106,7 +106,7 @@ and (max-width : 480px) {
                   <li class="nav-item"><a class="item-anchor" href="../../">Project</a></li>
       
                
-              <li class="nav-item"><a class="item-anchor" href="../contact">Kontak Kami</a></li>
+              <li class="nav-item"><a class="item-anchor" href="../contact-open">Kontak Kami</a></li>
               <li class="nav-item"><a class="item-anchor" href="http://meprasetyo.github.io/">Analyst Manager</a></li></ul>
             </div>
          </div>

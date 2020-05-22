@@ -37,7 +37,7 @@
             <div class="nav-content hideNav hidden">
                <ul class="nav-list vcenter">
                   <li class="nav-item"><a class="item-anchor" href="../">Halaman Utama</a></li>
-              <li class="nav-item"><a class="item-anchor" href="../website">Website & Bisnis</a></li>
+              <li class="nav-item"><a class="item-anchor" href="../website-open">Website & Bisnis</a></li>
               <li class="nav-item"><a class="item-anchor" href="../#visimisi">Visi Misi</a></li>
                   <li class="nav-item"><a class="item-anchor" href="../../">Project</a></li>
       
