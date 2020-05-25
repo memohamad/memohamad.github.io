@@ -115,6 +115,10 @@ span {
         width: 40px;
         padding: 4px;
     }
+
+    .buttonWAME{
+      display: none;
+    } 
 }
 
 
