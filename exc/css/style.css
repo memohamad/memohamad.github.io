@@ -122,8 +122,9 @@ a:visited {
     border-color: transparent;
 }
 .navbar-default.color-fill {
-    background-color: #333;
+    background-color: #fff;
     border-color: transparent;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 }
 .btn-nav {
     background: transparent;
@@ -150,7 +151,7 @@ a:visited {
     margin: 6px 0;
     width: 30px;
     height: 3px;
-    background-color: #FFFFFF;
+    background-color: #000;
 }
 .icon-bar.inverted {
     background-color: #fff;
