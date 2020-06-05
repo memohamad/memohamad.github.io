@@ -329,15 +329,20 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
-  background: #fff;
-  color: #71c55d;
+/*  border: 2px solid #2db34a;*/
+  background: #2db34a;;
+  color: #fff;
   text-decoration: none;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  background: #ff7b29;
   color: #fff;
+/*  border: 2px solid #ff7b29;*/
+
 }
 
 #hero .btns a {
