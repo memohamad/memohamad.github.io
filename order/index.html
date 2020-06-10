@@ -8,7 +8,7 @@
   <link rel="SHORTCUT ICON" href="../exc/this/img/1.jpg">
 
 <!-- description -->
-<meta name="description" content="Order Pijat">
+<meta name="description" content="Order Pijat, Silahkan Isi Data Pemesanan">
 <!-- Keywords -->
 <meta name="keywords" content="">
 
@@ -66,9 +66,15 @@
                                 <label class="form-label login-text-input" id="label-edit" >Alamat Lengkap</label>
                             </div>
                         </div>
-                        <select id="jenis-kelamin" class="form-control form-line3">
+                        <select id="jenis-kelamin" class="form-control form-line3" style="margin-bottom: 25px;">
                             <option value="laki-laki">Laki-Laki</option>
                             <option value="Perempuan">Perempuan</option>
+                        </select>
+                        <select id="treatment" class="form-control form-line3">
+                            <option value="Pijat 1,5 Jam">Pijat 1,5 Jam</option>
+                            <option value="Pijat 2 Jam">Pijat 2 Jam</option>
+                            <option value="Pijat Lulur 2 Jam">Pijat Lulur 2 Jam</option>
+                            <option value="Pijat Lulur 2,5 Jam">Pijat Lulur 2,5 Jam</option>
                         </select>
                     </div>
                     
@@ -111,7 +117,7 @@ function myFunction() {
             return false;
         }
 
-    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=Data%20Diri%20Anda%20%0A%0ANama :%20"+$('#nama').val()+"%20%0AAlamat%20%3A%20"+$('#alamat').val()+"%20%0AJenis Kelamin%20%3A%20"+$('#jenis-kelamin').val();
+    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=Data%20Diri%20Anda%20%0A%0ANama :%20"+$('#nama').val()+"%20%0AAlamat%20%3A%20"+$('#alamat').val()+"%20%0AJenis Kelamin%20%3A%20"+$('#jenis-kelamin').val()+"%20%0ATreatment%20%3A%20"+$('#treatment').val();
 }
 </script>
 
