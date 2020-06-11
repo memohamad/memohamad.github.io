@@ -1,9 +1,8 @@
    
-   /*  $(window).on('load',function(e){
-        $("#div-1").load("div-1.html");
-        $("#div-2").load("div-2.html");
-        $("#div-3").load("div-3.html");
-     });*/
+     $(window).on('load',function(e){
+        $("#price").load("price.html");
+   
+     });
 
     $('#div-click-1').on('click',function(e){
      	$("#div-1-1").load("div-1a.html")
