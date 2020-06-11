@@ -1562,7 +1562,31 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-align: center;
 }
 .card .back {
-  background: #007bff;
+  background: #fd7e14;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.card .back2 {
+  background: #007aff;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.card .back3 {
+  background: #ee4957;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.card .back4 {
+  background: #343a40;
   color: #fff;
   line-height: 40px;
   text-align: center;
@@ -1583,8 +1607,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .div-card-foot{
-  background-color: #a5f193;
+  background-color: #00bfa5;
   font-weight: bold;
+  color: #fff;
 }
 .img-side-a{
     width: 100%;
