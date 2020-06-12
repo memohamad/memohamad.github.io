@@ -1617,7 +1617,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   }
 @media (max-width: 767px) {
   .img-side-a{
-    width: 300px;
+    width: 250px;
     height: 300px;
   }
 }
