@@ -2,3 +2,109 @@
 {
 	cursor: pointer;
 }
+
+.english{
+	cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #545454;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.english:hover{
+	cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #2db34a;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.english-none{
+	cursor: pointer;
+    display: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #2db34a;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.bahasa{
+	cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #545454;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.bahasa:hover{
+	cursor: pointer;
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #2db34a;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+.bahasa-none{
+	cursor: pointer;
+    display: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: -41px;
+    color: white;
+    background-color: #2db34a;
+    border: transparent;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 1050px) {
+    .english{
+	    display: none;
+	    float: right;
+	    margin-top: 10px;
+	    margin-right: -41px;
+	    color: white;
+	    background-color: #545454;
+	    border: transparent;
+	    padding-bottom: 4px;
+	    padding-left: 6px;
+	    padding-right: 6px;
+	    border-radius: 6px;
+	}
+}
