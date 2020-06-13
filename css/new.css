@@ -108,3 +108,219 @@
 	    border-radius: 6px;
 	}
 }
+
+
+/*------------------------------------------------------------------
+    MISC
+-------------------------------------------------------------------*/
+
+.progress {
+    background-color: #f2f3f5;
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skills h3 {
+    color: #999999;
+    font-size: 15px;
+}
+
+.dmtop {
+    background-color: #3C3D41;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    position: fixed;
+    bottom: -100px;
+    border-radius: 3px;
+    right: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff !important;
+    cursor: pointer;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+
+.icon_wrap {
+    background-color: #ee902f;
+    width: 100px;
+    height: 100px;
+    display: block;
+    line-height: 100px;
+    font-size: 65px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.stat-wrap h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #999 ;
+    margin: 0 ;
+    padding: 0 ;
+    line-height: 1 :
+}
+
+.stat-wrap p {
+    font-size: 38px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+    padding: 4px 0 0;
+    line-height: 1 !important:
+}
+
+#preloader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 11000;
+    position: fixed;
+    display: block
+}
+
+.preloader {
+    position: absolute;
+    margin: 0 auto;
+    left: 1%;
+    right: 1%;
+    top: 45%;
+    width: 95px;
+    height: 95px;
+    background: center center no-repeat none;
+    background-size: 95px 95px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+
+/*------------------------------------------------------------------
+    Preloader
+-------------------------------------------------------------------*/
+
+.loader-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #30b951;
+}
+
+.loader-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 0 100px;
+  color: rgba(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .5px;
+}
+
+.loader-new {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 24px;
+  border-left: 8px solid #fff;
+  border-right: 8px solid #fff;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.loader-new .ball {
+  height: 8px;
+  width: 0;
+  background: white;
+  position: relative;
+  margin: 0;
+}
+
+.loader-new .ball:nth-child(1) {
+  -webkit-animation: ball 2s ease-in-out infinite;
+  animation: ball 2s ease-in-out infinite;
+}
+
+.loader-new .ball:nth-child(2) {
+  -webkit-animation: ball 2s ease-in-out .1s infinite;
+  animation: ball 2s ease-in-out .1s infinite;
+}
+
+.loader-new .ball:nth-child(3) {
+  -webkit-animation: ball 2s ease-in-out .2s infinite;
+  animation: ball 2s ease-in-out .2s infinite;
+}
+
+@-webkit-keyframes ball {
+  0% {
+    left: 0;
+    width: 0px;
+  }
+  25% {
+    left: 0;
+    width: 300px;
+  }
+  50% {
+    left: 300px;
+    width: 0px;
+  }
+  75% {
+    left: 0;
+    width: 300px;
+  }
+  100% {
+    left: 0;
+    width: 0px;
+  }
+}
+
+@keyframes ball {
+  0% {
+    left: 0;
+    width: 0px;
+  }
+  25% {
+    left: 0;
+    width: 300px;
+  }
+  50% {
+    left: 300px;
+    width: 0px;
+  }
+  75% {
+    left: 0;
+    width: 300px;
+  }
+  100% {
+    left: 0;
+    width: 0px;
+  }
+}
+
