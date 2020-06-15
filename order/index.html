@@ -74,12 +74,12 @@
                         </select>
                         <select id="treatment" class="form-control form-line3">
                             <optgroup label="Pijat Refleksi & Body Massage">
-                                <option value="Refleksi Body Massage 90 Menit">Paket BM 90 Menit</option>
-                                <option value="Refleksi Body Massage 120 Menit">Paket BM 120 Menit</option>  
+                                <option value="Refleksi Body Massage 50k / 90 Menit">Paket BM 50k / 90 Menit</option>
+                                <option value="Refleksi Body Massage 75k / 120 Menit">Paket BM 75k / 120 Menit</option>  
                             </optgroup>
                             <optgroup label="Pijat Luluran">
-                                <option value="Pijat Luluran 120 Menit">Paket Lulur 120 Menit</option>
-                                <option value="Pijat Luluran 150 Menit">Paket Lulur 150 Menit</option>
+                                <option value="Pijat Luluran 80k / 120 Menit">Paket Lulur 80k / 120 Menit</option>
+                                <option value="Pijat Luluran 100k / 150 Menit">Paket Lulur 100k / 150 Menit</option>
                             </optgroup>
                         </select>
                     </div>
@@ -129,7 +129,7 @@ function myFunction() {
         buttonNext.attr('style','color:white;font-size: 18px;');
         return false;
     }
-    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=Data%20Pemesanan%20Anda%20%0A%0ANama :%20"+$('#nama').val()+"%20%0AAlamat%20%3A%20"+$('#alamat').val()+"%20%0AJenis Kelamin%20%3A%20"+$('#jenis-kelamin').val()+"%20%0ATreatment%20%3A%20"+$('#treatment').val();
+    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=*Data%20Pemesanan%20Anda*%20%0A%0A*Nama :*%20"+$('#nama').val()+"%20%0A*Alamat :* "+$('#alamat').val()+"%20%0A*Jenis Kelamin :* "+$('#jenis-kelamin').val()+"%20%0A*Treatment :* "+$('#treatment').val()+"%20%0A%0ATarif Tambah Transport Sesuai Jarak%20%0A*Silahkan Share Peta Lokasi Anda*";
 }
 </script>
 
