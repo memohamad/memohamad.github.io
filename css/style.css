@@ -116,9 +116,9 @@ span {
         padding: 4px;
     }
 
-    .buttonWAME{
+    /*.buttonWAME{
       display: none;
-    } 
+    } */
 }
 
 
@@ -1646,4 +1646,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .w-90pc{
   margin-left: 5px;
   margin-right: 5px;
+}
+
+
+.card-container2 {
+  cursor: pointer;
+  height: 250px;
+  perspective: 600;
+  position: relative;
+  width: 100%;
+  display: inline-block;
 }

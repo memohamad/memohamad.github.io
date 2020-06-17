@@ -1,7 +1,7 @@
    
      $(window).on('load',function(e){
         $("#price").load("price.html");
-   
+        $("#example").load("example.html");
      });
 
     $('#div-click-1').on('click',function(e){
