@@ -1,5 +1,11 @@
-   
-     $(window).on('load',function(e){
+    var renderPage = true;
+    $(window).on("load", function(){
+      if(renderPage) {
+      $('body').addClass('loaded');
+      }         
+    });   
+    
+    $(window).on('load',function(e){
         $("#price").load("price.html");
         $("#example").load("example.html");
      });
