@@ -8,6 +8,7 @@
     $(window).on('load',function(e){
         $("#price").load("price.html");
         $("#example").load("example.html");
+        $("#footer-page").load("footer.html");
      });
 
     $('#div-click-1').on('click',function(e){
