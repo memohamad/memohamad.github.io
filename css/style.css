@@ -1648,11 +1648,34 @@ body.mobile-nav-active #mobile-nav-toggle i {
   margin-right: 5px;
 }
 
-
 .card-container2 {
   height: 250px;
   perspective: 600;
   position: relative;
   width: 100%;
   display: inline-block;
+}
+
+@media (max-width: 767px) {
+
+  .card-container2 {
+    height: 330px;
+    perspective: 600;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+}
+
+@media (max-width: 448px) {
+
+  .card-container2 {
+    height: 250px;
+    perspective: 600;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
 }
