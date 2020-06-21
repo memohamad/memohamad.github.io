@@ -25,25 +25,17 @@
 <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
 <link href="../accounts/css/themes/all-themes.css?v=1.6.1" rel="stylesheet" />
 <link href="../accounts/css/modif-style.css?v=1.6.1" rel="stylesheet" />
+<link href="../css/load.css?v=1.6.1" rel="stylesheet" />
 
 </head>
 
 <body class="theme-red" style="background-color: white;font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="preloader">
-                <div class="spinner-layer pl-red">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-            <p>Loading System...</p>
-        </div>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
     </div>
+    
     <div class="overlay"></div>
     <section class="form-login-page">
         <div class="login-box" >
@@ -107,8 +99,16 @@
 <script src="../accounts/plugins/node-waves/waves.js"></script>
 <!-- Custom Js -->
 <script src="../accounts/js/admin.js"></script>
-
 <script type="text/javascript">
+var renderPage = true;
+$(window).on("load", function(){
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }         
+}); 
+</script>
+<script type="text/javascript">
+  
 function myFunction() {
     var nama = $('#nama').val();
     var alamat = $('#alamat').val();
