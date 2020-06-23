@@ -1,3 +1,17 @@
+.li-root{
+
+}
+
+.li-root:hover{
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 1024px) {
+    .li-root:hover{
+        background-color: #000;
+    }
+}
+
 .hov{
     position: absolute;
     top: 0px;
@@ -220,9 +234,10 @@
 }
 
 .div-card-ex:hover{
-    background-color: #00bfa5;
+    background-color: #ff4937;
     font-weight: bold;
     color: #fff;
+    border: solid 2px #ff4937;
 }
 
 .pointer 
