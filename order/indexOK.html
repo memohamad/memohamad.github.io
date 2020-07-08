@@ -26,14 +26,7 @@
 <link href="../accounts/css/themes/all-themes.css?v=1.6.1" rel="stylesheet" />
 <link href="../accounts/css/modif-style.css?v=1.6.1" rel="stylesheet" />
 <link href="../css/load.css?v=1.6.1" rel="stylesheet" />
-<style type="text/css">
-.pilihanText{
-    font-weight: bold;
-    margin-bottom: 7px;
-    font-size: 16px;
-    margin-top: -6px;
-}
-</style>
+
 </head>
 
 <body class="theme-red" style="background-color: white;font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
@@ -65,22 +58,27 @@
                                 <label class="form-label login-text-input" id="label-edit" >Alamat Lengkap</label>
                             </div>
                         </div>
-                        <div class="pilihanText">Jenis Kelamin:</div>
                         <select id="jenis-kelamin" class="form-control form-line3" style="margin-bottom: 25px;">
+                            <optgroup label="Jenis Kelamin">
                                 <option value="laki-laki">Laki-Laki</option>
                                 <option value="Perempuan">Perempuan</option>
+                            </optgroup>
                         </select>
-                        <div class="pilihanText">Treatment:</div>
-                        <select id="treatment" class="form-control form-line3" style="margin-bottom: 25px;">
+                        <select id="treatment" class="form-control form-line3">
+                            <optgroup label="Pijat Refleksi & Body Massage">
                                 <option value="Refleksi Body Massage 50k / 90 Menit">Paket BM 50k / 90 Menit</option>
                                 <option value="Refleksi Body Massage 75k / 120 Menit">Paket BM 75k / 120 Menit</option>  
+                            </optgroup>
+                            <optgroup label="Pijat Luluran">
                                 <option value="Pijat Luluran 80k / 120 Menit">Paket Lulur 80k / 120 Menit</option>
                                 <option value="Pijat Luluran 100k / 150 Menit">Paket Lulur 100k / 150 Menit</option>
+                            </optgroup>
                         </select>
-                        <div class="pilihanText">Habis Dari Luar Kota:</div>
-                        <select id="xKota" class="form-control form-line3" >
-                                <option value="Iya">Iya</option>
-                                <option value="Tidak">Tidak</option>
+                        <select id="jenis-kelamin" class="form-control form-line3" style="margin-bottom: 25px;">
+                            <optgroup label="Habis Dari Luar Kota">
+                                <option value="laki-laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </optgroup>
                         </select>
                     </div>
                     
@@ -137,7 +135,7 @@ function myFunction() {
         buttonNext.attr('style','color:white;font-size: 18px;');
         return false;
     }
-    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=*Data%20Pemesanan%20Anda*%20%0A%0A*Nama :*%20"+$('#nama').val()+"%20%0A*Alamat :* "+$('#alamat').val()+"%20%0A*Jenis Kelamin :* "+$('#jenis-kelamin').val()+"%20%0A*Treatment :* "+$('#treatment').val()+"%20%0A*Berbergian Luar Kota :* "+$('#xKota').val()+"%20%0A%0ATarif Tambah Transport Sesuai Jarak%20%0A*Silahkan Share Peta Lokasi Anda*";
+    location.href = "https://api.whatsapp.com/send?phone=628995654009&text=*Data%20Pemesanan%20Anda*%20%0A%0A*Nama :*%20"+$('#nama').val()+"%20%0A*Alamat :* "+$('#alamat').val()+"%20%0A*Jenis Kelamin :* "+$('#jenis-kelamin').val()+"%20%0A*Treatment :* "+$('#treatment').val()+"%20%0A%0ATarif Tambah Transport Sesuai Jarak%20%0A*Silahkan Share Peta Lokasi Anda*";
 }
 </script>
 
